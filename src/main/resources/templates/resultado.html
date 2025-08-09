@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resultado IMC</title>
+  </head>
+  <body>
+    <h1>Resultado</h1>
+    <p>Tu IMC es: <span th:text="${imc}"></span></p>
+    <p>Clasificación: <span th:text="${clasificacion}"></span></p>
+    <a href="/">Calcular otro</a>
+  </body>
+</html>
